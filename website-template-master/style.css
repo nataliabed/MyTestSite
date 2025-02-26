@@ -1,0 +1,11 @@
+body {
+	background-color: pink;
+}
+
+#cat-container {
+	margin-top: 30px;
+}
+
+#cat-container img {
+	width: 200px;
+}
