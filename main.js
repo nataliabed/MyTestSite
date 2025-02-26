@@ -23,11 +23,13 @@ function rotate() {
         console.log('Rotating');
         $('body').css({
             'transform': 'rotate(5deg)',
+            'transition': '0.5s ease'
         });
     } else {
         console.log('Rotating back');
         $('body').css({
             'transform': 'rotate(0deg)',
+            'transition': '0.5s ease'
         });
     }
     isRotated = !isRotated; // Toggle state
